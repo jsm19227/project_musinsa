@@ -4,7 +4,7 @@
 ## 설치 방법
 - 프로젝트 클론<br>
 git clone https://github.com/jsm19227/project_musinsa.git<br>
-- 프로젝트 빌드
+- 프로젝트 빌드<br>
 Spring Boot + Gradle을 사용해 빌드  ./gradlew build <br>
 - 테스트 빌드<br>
 ./gradlew test --rerun-tasks 를 통해 테스트 확인<br>
