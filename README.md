@@ -3,7 +3,11 @@
 
 ## 설치 방법
 - 프로젝트 클론<br>
-git clone https://github.com/jsm19227/project_musinsa.git
+git clone https://github.com/jsm19227/project_musinsa.git<br>
+- 프로젝트 빌드
+Spring Boot + Gradle을 사용해 빌드  ./gradlew build <br>
+- 테스트 빌드<br>
+./gradlew test --rerun-tasks 를 통해 테스트 확인<br>
 
 ## ⚡주의 사항<br>
 빌드 시 data.sql 파일을 항상 실행하게 되면서 이전에 작업해둔 데이터는 모두 삭제되고 초기 데이터가 새로 insert 되는 점 주의<br>
