@@ -5,6 +5,11 @@
 - 프로젝트 클론<br>
 git clone https://github.com/jsm19227/project_musinsa.git
 
+## ⚡주의 사항<br>
+빌드 시 data.sql 파일을 항상 실행하게 되면서 이전에 작업해둔 데이터는 모두 삭제되고 초기 데이터가 새로 insert 되는 점 주의<br>
+기존 데이터를 유지하고 싶다면 application.properties 파일 설정 중 <br>
+spring.sql.init.mode=always 설정은 주석 처리 이후 spring.sql.init.mode=never 주석 해제 
+
 ## 📖 기술 스택
 - JAVA 17
 - SPRING Boot 3.3.1 / spring famework 6.1.4
